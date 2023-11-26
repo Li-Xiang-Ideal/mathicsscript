@@ -10,6 +10,7 @@ from ctypes.util import find_library
 from importlib.util import find_spec
 
 import requests
+
 if os.name == "nt":
     from tqdm import tqdm
 
